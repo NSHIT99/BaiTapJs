@@ -1,0 +1,60 @@
+.list-card {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.btn-primary {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0d6efd;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.btn-primary:focus {
+  border: 1px solid #ccc;
+}
+
+.disabled:focus {
+  border: none;
+}
+
+/* .spinner {
+  display: none;
+  right: 50%;
+  top: 50%;
+  transform: translate(0px, -50%);
+  border: 4px solid rgba(18, 123, 236, 0.1);
+  border-left-color: transparent;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.cursor-wait {
+	cursor: wait !important;
+}
+

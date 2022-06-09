@@ -1,0 +1,10 @@
+.alert-dismissible{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid gray;
+}
+
+.btn-primary{
+  margin: 20px;
+}

@@ -1,0 +1,36 @@
+.dropdown {
+  margin-top: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+  padding: 5px;
+  margin: 0;
+  background-color: #fff;
+  width: 150px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.dropdown-toggle {
+  background-color: #6c757d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #e9ecef;
+}
